@@ -2,7 +2,7 @@ import os
 import glob
 from pdf2image import convert_from_path
 import pytesseract
-
+#my directory during my data analytics internship
 pdfdirectory = "/home/llmadmin/bevan_llm/pdfs_to_convert"
 outputdirectory = "/home/llmadmin/bevan_llm/ocr_text"
 os.makedirs(outputdirectory, exist_ok=True)
