@@ -1,4 +1,4 @@
-# simple web server for yourself, crafted through university provided skeleton code
+# simple web server for yourself, crafted through edited code from Kurose Top-Down Approach Networking .
 # import socket module
 from socket import *
 # In order to terminate the program
@@ -50,5 +50,6 @@ def webServer(port=13331):
 if __name__ == "__main__":
 
   webServer(13331)
+
 
 
