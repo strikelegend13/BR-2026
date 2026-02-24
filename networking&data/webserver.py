@@ -8,9 +8,7 @@ def webServer(port=13331):
   serverSocket = socket(AF_INET, SOCK_STREAM)
   #Prepare a server socket
   serverSocket.bind(("", port))
-  #Fill in start
   serverSocket.listen(1)
-  #Fill in end
   while True:
     #Establish the connection
     print('Ready to serve...')
@@ -31,17 +29,14 @@ def webServer(port=13331):
       f.close()
       #Send the content of the requested file to the client (don't forget the headers you created)!
       #Send everything as one send command, do not send one line/item at a time
-      # Fill in start
       response = outputdata + f"Content-Length: {len(content)}\r\n".encode() + b"Connection: close\r\n\r\n" + content
       connectionSocket.sendall(response)
-      # Fill in end
         
       connectionSocket.close() #closing the connection socket
       
     except Exception as e:
       # Send response message for invalid request due to the file not being found (404)
       # Remember the format you used in the try: block!
-      #Fill in start
       error = b"<html><body><h1>404 Not Found</h1></body></html>"
       errorback = (
         b"HTTP/1.1 404 Not Found\r\n"
@@ -52,13 +47,10 @@ def webServer(port=13331):
         + error
       )
       connectionSocket.sendall(errorback)
-      #Fill in end
 
 
       #Close client socket
-      #Fill in start
       connectionSocket.close()
-      #Fill in end
   # Commenting out the below (some use it for local testing). It is not required for Gradescope, and some students have moved it erroneously in the While loop. 
   # DO NOT PLACE ANYWHERE ELSE AND DO NOT UNCOMMENT WHEN SUBMITTING, YOU ARE GONNA HAVE A BAD TIME
   #serverSocket.close()
@@ -67,3 +59,4 @@ def webServer(port=13331):
 if __name__ == "__main__":
 
   webServer(13331)
+
