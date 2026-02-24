@@ -1,9 +1,10 @@
 # AwakenSecurity
+For non-profit security tools
 
 A cross-platform security monitoring app with Electron, Python, and FastAPI components.
 
 
-# heavily unfinished, ml analysis and ocr detection are necessary to implement 
+# Heavily unfinished, ml analysis and ocr detection are necessary to implement 
 
 ## Quick Start
 
