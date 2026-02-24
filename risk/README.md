@@ -1,0 +1,4 @@
+# README
+- This semester, I have focused primarily on understanding deeper fundamentals on risk management, exercises and response. Alongside recently acquiring a SecurityScorecard Third-party Risk badge, I am completing two courses both centered around cyber resiliency as well as AI governance starting the second half of the semester (CS-GY 9215). I am progressing towards finishing my resilience final project based around the, "PCAST Report to the President, Strategy for Cyber-Physical Resilience: Fortifying Our Critical Infrastructure for a Digital World" to develop a unique framework (TBD by March 7th). 
+- There is a file showing how I utilize AI-crafted techniques to make advanced and realistic phishing messages with notes, this was the methodology used in my small simulation of 20 people with 9 being high-risk individuals (elderly). I have also recently began fundamentals of the GoPhish interface.
+- The simulation paper is listed as well in ISPrevised.pdf.
