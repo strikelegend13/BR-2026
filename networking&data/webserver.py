@@ -1,3 +1,4 @@
+# simple web server for yourself
 # import socket module
 from socket import *
 # In order to terminate the program
@@ -18,7 +19,6 @@ def webServer(port=13331):
       message = connectionSocket.recv(1024).decode()
       filename = message.split()[1]
       #opens the client requested file. 
-      #Plenty of guidance online on how to open and read a file in python. How should you read it though if you plan on sending it through a socket?
       f = open(filename[1:], 'rb')
       header = b"HTTP/1.1 200 OK\r\nServer: helloworld.html Server\r\n"
       outputdata = header + b"Content-Type: text/html; charset=UTF-8\r\n"
@@ -65,4 +65,5 @@ def webServer(port=13331):
   #sys.exit()  # Terminate the program after sending the corresponding data
 
 if __name__ == "__main__":
+
   webServer(13331)
