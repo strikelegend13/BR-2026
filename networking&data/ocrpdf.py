@@ -9,7 +9,7 @@ pdfdirectory = "/home/llmadmin/bevan_llm/pdfs_to_convert"
 outputdirectory = "/home/llmadmin/bevan_llm/ocr_text"
 # create the output folder if it doesn't already exist
 os.makedirs(outputdirectory, exist_ok=True)
-# find all PDF files in the pdf directory (glob.glob haha)
+# find all PDF files in the pdf directory (glob.glob)
 files = glob.glob(os.path.join(pdfdirectory, "*.pdf"))
 print("Found ", len(files), " PDF(s) to process.\n")
 
