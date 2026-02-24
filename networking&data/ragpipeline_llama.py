@@ -169,7 +169,7 @@ def ask(query, collection):
     # chunk context
     context = "\n\n".join(chunks)
 # rag prompt
-   prompt = (
+prompt = (
         f"You are a helpful assistant. Answer the question below using ONLY "
         f"the context provided. If the answer is not in the context, say "
         f"'I could not find this in the provided documents.'\n\n"
