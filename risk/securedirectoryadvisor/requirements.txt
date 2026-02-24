@@ -4,5 +4,5 @@
 # Secure OS-keychain storage of API keys (recommended)
 keyring>=25.0.0
 
-# Safe file deletion — sends files to Recycle Bin / Trash instead of permanent delete
+# sends files to Recycle Bin
 send2trash>=1.8.0
