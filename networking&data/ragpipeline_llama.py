@@ -17,7 +17,7 @@ from llama_index.core.node_parser import SentenceSplitter
 import chromadb
 from llama_index.vector_stores.chroma import ChromaVectorStore
 
-# ── pytesseract for OCR on images
+# OCR on images
 import pytesseract
 from PIL import Image
 from pdf2image import convert_from_path
