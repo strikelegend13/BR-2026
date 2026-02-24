@@ -1,0 +1,10 @@
+mss
+pytesseract
+opencv-python
+scikit-learn
+flask
+flask-cors
+numpy
+requests
+openai
+python-dotenv
