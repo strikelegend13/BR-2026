@@ -1,20 +1,12 @@
-# 🛡️ Secure File Advisor — Advanced Edition
+# Basic file advisor with optional API integration
 
 Designed specifically for **elderly and non-technical users**, this tool helps people stay safe online by checking files and websites *before* they open them — in plain, friendly English.
-
----
-
-## ✨ What's New in This Version
-
-| Feature | Description |
-|---|---|
-| 📂 **Automatic Download Monitoring** | Watches your Downloads folder and pops up a friendly warning the moment a new file appears — no need to remember to check manually |
-| 🌐 **Website (URL) Checker** | Paste a link from an email or message and find out if it's safe before visiting |
-| 📨 **Ask a Trusted Contact** | One-click button to email a family member or friend with a full report, so they can help you decide |
-| ✅ **Friendly Plain-English Results** | No technical jargon — every result is explained simply with large text and clear ✅ / ⚠️ / 🛑 indicators |
-| 🔑 **Optional API Integration** | Add free VirusTotal and Google Safe Browsing keys for real-world threat database checks |
-| 📋 **Scan History** | See all the files and sites you've checked before |
-| ⚙️ **Settings Panel** | Configure your trusted contact, Downloads folder, and optional API keys |
+- Automatic Download Monitoring
+- Ask a Trusted Contact
+- Friendly Plain-English 
+- Optional API Integration
+- Scan History
+- Settings Panel 
 
 ---
 
