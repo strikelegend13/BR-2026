@@ -1,0 +1,9 @@
+# LLM Configuration
+# Choose your LLM provider: 'openai' or 'ollama'
+LLM_PROVIDER=openai
+
+# OpenAI Configuration (if using OpenAI)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Ollama Configuration (if using local Ollama)
+OLLAMA_URL=http://localhost:11434 
