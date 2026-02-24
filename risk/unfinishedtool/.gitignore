@@ -1,0 +1,19 @@
+# Node/Electron
+node_modules/
+dist/
+build/
+*.asar
+
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+config.yaml
+*.sqlite3
