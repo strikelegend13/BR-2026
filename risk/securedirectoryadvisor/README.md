@@ -49,7 +49,7 @@ secure_file_advisor/
 ├── main.py              # Entry point — starts the app and the download monitor
 ├── modules/
 │   ├── analyzer.py      # File and URL risk analysis logic
-│   ├── config.py        # Persistent settings (saved to ~/.secure_file_advisor_config.json)
+│   ├── config.py        # Persistent settings (saved to ~/.securedirectoryadvisor_config.json)
 │   ├── contact.py       # Trusted contact messaging (email / SMS gateway)
 │   ├── monitor.py       # Background download folder watcher
 │   └── ui.py            # Full tkinter GUI
