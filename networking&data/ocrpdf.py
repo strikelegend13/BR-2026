@@ -3,7 +3,7 @@ import glob
 from pdf2image import convert_from_path  # converts PDF pages into images
 import pytesseract  # reads text from images (OCR)
 # my directory during data science internship
-# pdfs were likely documents fed into an LLM (large language model) called bevan_llm
+# pdfs were  documents fed into an LLM (large language model) called bevan_llm
 pdfdirectory = "/home/llmadmin/bevan_llm/pdfs_to_convert"
 # directory where the extracted text files will be saved
 outputdirectory = "/home/llmadmin/bevan_llm/ocr_text"
