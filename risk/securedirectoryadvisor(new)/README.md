@@ -1,6 +1,6 @@
-# Secure Directory Advisor
+# Secure Directory Advisor (Now Securious)
 
-Desktop safety assistant focused on non-technical users.
+Non-profit desktop safety assistant focused on non-technical users. Added email and more backend checks.
 
 It checks files and websites before opening and explains results in plain
 language, with optional online threat-intel lookups.
